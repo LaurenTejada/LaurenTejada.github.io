@@ -91,6 +91,30 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/******** base styles ********/
+p {
+  margin: 0;
+}
+
+/** header **/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  height: 44px;
+  padding: 10px 20px 10px 20px;
+  background-color: #faf8f3;
+}
+
+img.dylpops-logo {
+  max-height: 170%;
+  margin-top: -8px;
+}
+
+.header__menu-icon,
+.header__cart-icon {
+  color: #d3684c;
+}
 
 /* ==========================================================================
    Helper classes
@@ -180,8 +204,12 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768) {
+  /* Style adjustments for tablet*/
+}
+
+@media only screen and (min-width: 1200) {
+  /* Style adjustments for desktop*/
 }
 
 @media print,

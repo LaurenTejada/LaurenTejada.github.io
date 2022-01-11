@@ -18,8 +18,10 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
   <meta name="theme-color" content="#fafafa">
+
+  <!-- FontAwesome CDN version 5.5 -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">  
 </head>
 <!---------------  
 - Header
@@ -57,14 +59,20 @@
 <body>
   <!-------- Header -------->
   <header>
-    <div class="header__menu-icon"></div>
-    <a href="index.html"><img src="/index.html" alt="Dylpop's logo" class="dylpops-logo"></a>
-    <div class="header__cart-icon"></div>    
+    <div class="header__menu-icon">
+      <p><i class="fas fa-bars"></i></p>
+    </div> 
+    <div class="header__logo-container">
+      <a href="index.html"><img src="img/dylpops-logo.png" alt="Dylpop's logo" class="dylpops-logo"></a>
+    </div>
+    <div class="header__cart-icon">
+      <p><i class="fas fa-shopping-cart"></i></p>
+    </div>    
   </header>
 
   <main>
     <!-------- Section - Hero -------->
-    <section>
+    <section class="hero-section">
       <div class="hero__hero-image"></div>
       <div class="hero__hero-wrapper">
         <h1 class="hero__type-heading-1">
@@ -82,6 +90,7 @@
     </aside>
 
     <!-------- Section - Shop -------->
+    <section></section>
 
     <!-------- Section - About Us -------->
     <section>
