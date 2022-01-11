@@ -21,11 +21,160 @@
 
   <meta name="theme-color" content="#fafafa">
 </head>
+<!---------------  
+- Header
+  - Navigation button
+    - Menu button
+    - Shop button
+    - About button
+    - Account button
+  - Logo
+  - Cart button
+- Content Area
+  - Section - Hero area
+    - Hero image
+    - Headline text
+    - Button
+  - Aside
+    - Headline text
+  - Section - Shop area
+  - Section - About Us area
+    - Headline text
+    - Text
+    - Button
+    - Image
+- Footer
+  - Mailing list
+  - Email form
+  - About us text
+  - Proceeds text
+  - Main menu links
+  - Collections links
+  - Information links
+  - Copyright
+---------------->
 
 <body>
+  <!-------- Header -------->
+  <header>
+    <div class="header__menu-icon"></div>
+    <a href="index.html"><img src="/index.html" alt="Dylpop's logo" class="dylpops-logo"></a>
+    <div class="header__cart-icon"></div>    
+  </header>
 
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+  <main>
+    <!-------- Section - Hero -------->
+    <section>
+      <div class="hero__hero-image"></div>
+      <div class="hero__hero-wrapper">
+        <h1 class="hero__type-heading-1">
+          A collection of books worth talking about.
+        </h1>
+        <button class="btn__shop">Shop now</button>
+      </div>
+    </section>
+
+    <!-------- Aside - Headline -------->
+    <aside>
+      <h2 class="aside__type-heading-2">
+        Raising readers and next-generation leaders.
+      </h2>
+    </aside>
+
+    <!-------- Section - Shop -------->
+
+    <!-------- Section - About Us -------->
+    <section>
+      <div class="about-image__about-image-wrapper">
+        <div class="about-image_text-wrapper">
+          <h2 class="about-image__type-heading-2">About Us</h2>
+          <p class="about-image__p-text">
+            At Dylpop's we are prioritizing access to early learning by jumpstarting 
+            in-home-libraries nationwide. We believe that every child deserves a 
+            collection of carefully curated books to help foster thought-provoking 
+            conversation within his or her home.
+          </p>
+          <button class="btn__our-story">Our Story</button>
+        </div>
+        <div class="about-image__image-container"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-------- Footer -------->
+  <footer>
+    <div class="footer__content-wrapper">
+      <!-- newsletter -->
+      <div class="footer__newsletter-wrapper">
+        <h4>Join our mailing list</h4>
+        <input type="email" placeholder="Email address">
+      </div>
+
+      <!-- about us -->
+      <div class="footer__about-us-wrapper">
+        <h4>About us</h4>
+        <p>We believe that every child deserves a collection of 
+          carefully curated books to help foster thought-provoking 
+          conversation within his or her home.
+        </p>
+        <p>Follow along @dylpopsbookshop</p>
+        <div class="footer__proceeds-container">
+          <h5>A percentage of proceeds benefit <span class="footer__proceeds-underline">50 states 50 books</span></h5>
+        </div>
+      </div>
+
+      <!-- main menu -->
+      <div class="footer__main-menu-container">
+        <h4>Main menu</h4>
+        <ul>
+          <li>Shop</li>
+          <li>About</li>
+        </ul>
+      </div>
+
+      <!-- collections -->
+      <div class="footer__collections-container">
+        <h4>Collections</h4>
+        <ul>
+          <li>Lessons</li>
+          <li>Milestones</li>
+          <li>Just for Fun</li>
+        </ul>
+      </div>
+
+      <!-- information -->
+      <div class="footer__information-container">
+        <h4>Information</h4>
+        <ul>
+          <li>About</li>
+          <li>Contact</li>
+          <li>Terms</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+
+      <!-- payment icons -->
+      <div class="footer__payment-icons-container">
+        <div class="footer__payment-icons">
+          <p></p> <!-- fontawesome - amex -->
+          <p></p> <!-- fontawesome - apple pay -->
+          <p></p> <!-- fontawesome - mastercard -->
+          <p></p> <!-- fontawesome - shop pay -->
+          <p></p> <!-- fontawesome - visa -->
+        </div>
+      </div> 
+
+      <!-- copyright -->
+      <div class="footer__copyright-wrapper">
+        <p class="footer__copyright-text">
+          Copyright &copy; 2022, DylPop's Book Shop. All Rights Reserved.
+        </p>
+      </div>
+    </div> <!-- end footer content-wrapper -->
+  </footer>
+
+  <!-- Javascript -->
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
