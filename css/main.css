@@ -18,7 +18,7 @@
 html {
   /* color: #222; */
   font-size: 1em;
-  line-height: 1.4;
+  line-height: 1;
 }
 
 /*
@@ -91,6 +91,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 /******** base styles ********/
+body {
+  font-family: 'Lora', serif;
+  font-size: 16px;
+}
+
 h1,
 p {
   margin: 0;
@@ -100,8 +105,7 @@ h1 {
   color: #ffffff;
 }
 
-/*
- header */
+/* header */
 header {
   display: flex;
   justify-content: space-between;
@@ -132,10 +136,15 @@ img.dylpops-logo {
 
 .hero__type-heading-1 {
   width: 88%;
-  padding-left: 20px;
+  padding: 165px 0 20px 20px;
   color: #ffffff;
+  font-size: 42px;
+  font-weight: lighter;
 }
 
+.btn__shop {
+  margin-left: 20px;
+}
 
 
 /* ==========================================================================
