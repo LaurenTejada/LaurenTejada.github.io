@@ -94,6 +94,7 @@ textarea {
 body {
   font-family: 'Lora', serif;
   font-size: 16px;
+  letter-spacing: -0.80px;
 }
 
 h1,
@@ -103,6 +104,11 @@ p {
 
 h1 {
   color: #ffffff;
+}
+
+p {
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 1px;
 }
 
 /* header */
@@ -122,9 +128,14 @@ img.dylpops-logo {
 
 .header__menu-icon,
 .header__cart-icon {
+  padding-top: 4px;
   color: #d3684c;
 }
 
+/* footer */
+
+
+/******** homepage ********/
 /* hero section */
 .hero-section {
   background-image: url(../img/dylpops-mobile-image-hero.jpeg);
@@ -144,13 +155,73 @@ img.dylpops-logo {
 
 .btn__shop {
   margin-left: 20px;
+  padding: 13px 27px 13px 27px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: hsl(11, 51%, 64%);
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+  box-shadow: 2.5px 2.5px 0 #ffe0d1;
 }
 
+/* aside */
+.aside-section {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 38px 20px 38px 20px;
+  background-color: #efece5;
+}
+
+.aside__type-heading-2 {
+  margin: 0;
+  text-align: center;
+  font-size: 29px;
+  font-weight: lighter;
+  color: #d28573;
+  line-height: 1.2em;
+}
+
+/* about us */
+.about-us-section {
+  background-color: #d28573;
+}
+
+.about-image_text-wrapper {
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.about-image__type-heading-2 {
+  margin: 0;
+  text-align: center;
+  font-size: 29px;
+  font-weight: lighter;
+}
+
+.about-image__p-text {
+  padding: 20px 5px 20px 5px;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+.btn__our-story {
+  margin-left: 20px;
+  padding: 13px 27px 13px 27px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: #e5b4a5;
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+  box-shadow: 2.5px 2.5px 0 #ffe0d1;
+}
 
 /* ==========================================================================
    Helper classes
    ========================================================================== */
-
 /*
  * Hide visually and from screen readers
  */
