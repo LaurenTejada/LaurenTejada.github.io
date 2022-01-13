@@ -111,6 +111,11 @@ p {
   letter-spacing: 1px;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 /* header */
 header {
   display: flex;
@@ -133,7 +138,20 @@ img.dylpops-logo {
 }
 
 /* footer */
+.footer__content-wrapper {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 10px 20px;
+}
 
+.footer_link-columns {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.footer__link-container {
+  width: 45%;
+}
 
 /******** homepage ********/
 /* hero section */
@@ -209,7 +227,6 @@ img.dylpops-logo {
 }
 
 .btn__our-story {
-  margin-left: 20px;
   padding: 13px 27px 13px 27px;
   color: #ffffff;
   font-size: 18px;
