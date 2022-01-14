@@ -151,7 +151,7 @@ img.dylpops-logo {
   color: #d3684c;
 }
 
-/* footer */
+/** footer **/
 /* footer wrapper */
 .footer__content-wrapper {
   display: flex;
@@ -203,7 +203,7 @@ input::placeholder {
 }
 
 .footer__proceeds-container {
-  padding: 10px 15px 10px 15px;
+  padding: 10px 12px 10px 12px;
   border: 1px solid #d3684c;
 }
 
@@ -214,6 +214,7 @@ input::placeholder {
 }
 
 .footer__proceeds-container h4 a {
+  line-height: 1.2;
   color: #d3684c;
 }
 
@@ -326,6 +327,15 @@ input::placeholder {
   box-shadow: 2.5px 2.5px 0 #ffe0d1;
 }
 
+.about-image__image-container {
+  background-image: url(..//img/dylpops-about-us-img.png);
+  background-position: center;
+  background-size: cover;
+  height: 312px;
+  width: 100%;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -333,92 +343,114 @@ input::placeholder {
  * Hide visually and from screen readers
  */
 
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
-
-.sr-only {
-  border: 0;
-  clip: rect(0, 0, 0, 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  white-space: nowrap;
-  width: 1px;
-  /* 1 */
-}
-
-/*
- * Extends the .sr-only class to allow the element
- * to be focusable when navigated to via the keyboard:
- * https://www.drupal.org/node/897638
- */
-
-.sr-only.focusable:active,
-.sr-only.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  white-space: inherit;
-  width: auto;
-}
-
-/*
- * Hide visually and from screen readers, but maintain layout
- */
-
-.invisible {
-  visibility: hidden;
-}
-
-/*
- * Clearfix: contain floats
- *
- * For modern browsers
- * 1. The space content is one way to avoid an Opera bug when the
- *    `contenteditable` attribute is included anywhere else in the document.
- *    Otherwise it causes space to appear at the top and bottom of elements
- *    that receive the `clearfix` class.
- * 2. The use of `table` rather than `block` is only necessary if using
- *    `:before` to contain the top-margins of child elements.
- */
-
-.clearfix::before,
-.clearfix::after {
-  content: " ";
-  display: table;
-}
-
-.clearfix::after {
-  clear: both;
-}
-
-/* ==========================================================================
-   EXAMPLE Media Queries for Responsive Design.
+ .hidden,
+ [hidden] {
+   display: none !important;
+ }
+ 
+ /*
+  * Hide only visually, but have it available for screen readers:
+  * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+  * 1. For long content, line feeds are not interpreted as spaces and small width
+  *    causes content to wrap 1 word per line:
+  *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+  */
+ 
+ .sr-only {
+   border: 0;
+   clip: rect(0, 0, 0, 0);
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   position: absolute;
+   white-space: nowrap;
+   width: 1px;
+   /* 1 */
+ }
+ 
+ /*
+  * Extends the .sr-only class to allow the element to be focusable when navigated to via the keyboard:
+  * https://www.drupal.org/node/897638
+  */
+ 
+ .sr-only.focusable:active,
+ .sr-only.focusable:focus {
+   clip: auto;
+   height: auto;
+   margin: 0;
+   overflow: visible;
+   position: static;
+   white-space: inherit;
+   width: auto;
+ }
+ 
+ /*
+  * Hide visually and from screen readers, but maintain layout
+  */
+ 
+ .invisible {
+   visibility: hidden;
+ }
+ 
+ /*
+  * Clearfix: contain floats
+  * For modern browsers
+  * 1. The space content is one way to avoid an Opera bug when the
+  *    `contenteditable` attribute is included anywhere else in the document.
+  *    Otherwise it causes space to appear at the top and bottom of elements
+  *    that receive the `clearfix` class.
+  * 2. The use of `table` rather than `block` is only necessary if using
+  *    `:before` to contain the top-margins of child elements.
+  */
+ 
+ .clearfix::before,
+ .clearfix::after {
+   content: " ";
+   display: table;
+ }
+ 
+ .clearfix::after {
+   clear: both;
+ }
+ 
+ /* ==========================================================================
+   Media Queries for Responsive Design. 
    These examples override the primary ('mobile first') styles.
-   Modify as content requires.
-   ========================================================================== */
+ ========================================================================== */
+@media only screen and (min-width: 768px) {
+  /* style adjustments for tablet*/
+  /******** base styles ********/
+  /** header **/
+  header {
+    padding: 10px 40px 10px 40px;
+  }
 
-@media only screen and (min-width: 768) {
-  /* Style adjustments for tablet*/
-}
+  /** homepage **/
+  .hero-section {
+    background-image: url(../img/dylpops-tablet-desktop-hero-img.png);
+    height: 788px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
 
-@media only screen and (min-width: 1200) {
-  /* Style adjustments for desktop*/
+  .hero__type-heading-1 {
+    width: 90%;
+    padding: 100px 135px 20px 135px;
+    text-align: center;
+  }
+  
+  .btn__shop {
+    width: 142px;
+    margin: 0 0 80px 0;
+  }
+
+} 
+
+@media only screen and (min-width: 1200px) {
+  /* style adjustments for desktop*/
 }
 
 @media print,
@@ -429,10 +461,9 @@ input::placeholder {
 }
 
 /* ==========================================================================
-   Print styles.
-   Inlined to avoid the additional HTTP request:
+   Print styles. Inlined to avoid the additional HTTP request:
    https://www.phpied.com/delay-loading-your-print-css/
-   ========================================================================== */
+========================================================================== */
 
 @media print {
   *,
@@ -440,7 +471,6 @@ input::placeholder {
   *::after {
     background: #fff !important;
     color: #000 !important;
-    /* Black prints faster */
     box-shadow: none !important;
     text-shadow: none !important;
   }
