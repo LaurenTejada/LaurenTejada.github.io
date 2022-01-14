@@ -421,12 +421,44 @@ input::placeholder {
 @media only screen and (min-width: 768px) {
   /* style adjustments for tablet*/
   /******** base styles ********/
+  h3 {
+    font-size: 14px;
+  }
+
+   p {
+    font-size: 18px;
+   }
+
   /** header **/
   header {
     padding: 10px 40px 10px 40px;
   }
 
+  /** footer **/
+  .footer__content-wrapper {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  /* footer newsletter */
+  .footer__newsletter-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+  }
+
+  .footer__newsletter-wrapper h3 {
+    padding: 0;
+  }
+
+  .input__email {
+    width: 47%;
+  }
+
   /** homepage **/
+  /* hero section */
   .hero-section {
     background-image: url(../img/dylpops-tablet-desktop-hero-img.png);
     height: 788px;
@@ -445,6 +477,11 @@ input::placeholder {
   .btn__shop {
     width: 142px;
     margin: 0 0 80px 0;
+  }
+
+  /* about us section */
+  .about-image__image-container {
+    height: 640px;
   }
 
 } 
