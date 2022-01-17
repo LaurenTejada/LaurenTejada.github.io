@@ -655,6 +655,15 @@ input::placeholder {
   .about-image__p-text {
     padding: 20px 35px 35px 35px;
     text-align: center;
+  }
+
+  .footer__about-us-wrapper {
+    padding-right: 40px;
+  }
+
+  .footer__proceeds-container {
+    width: 85%;
+  }
 
 }
 
