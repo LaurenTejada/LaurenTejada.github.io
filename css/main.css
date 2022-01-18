@@ -728,6 +728,11 @@ input::placeholder {
     font-size: 49px;
   }
 
+  /* shop collection */
+  .featured-details {
+    width: 100%;
+  }
+
   /* about us */
   .about-us-section {
     display: flex;
