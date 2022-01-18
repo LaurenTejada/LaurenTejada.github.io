@@ -434,6 +434,72 @@ input::placeholder {
   width: 100%;
 }
 
+/******** account login page ********/
+.account-section {
+  padding: 40px 20px 40px 20px;
+  border-bottom: solid 1px #efece5;
+  color: #d28573;
+}
+
+.account__login {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fcfbf7;
+  padding: 40px 20px 40px 20px;
+}
+
+.account_type-heading-1 {
+  padding-bottom: 20px;
+  font-size: 28px;
+  font-weight: lighter;
+  text-align: center;
+  color: #d28573;
+}
+
+.account__login-container p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.account__input {
+  width: 100%;
+  margin: 10px 0 20px 0;
+  padding: 10px 10px 11px 16px;
+  border-radius: unset;
+  border: 1.5px solid #d28573;
+  background-color: #fcfbf7;
+}
+
+.account-section input::placeholder { 
+  font-size: 11px;
+  color: #e9c2b9;
+  font-family: 'Jost', sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn__sign-in {
+  width: 100%; 
+  margin-bottom: 20px;
+  padding: 13px 27px 13px 27px;
+  color: #ffffff;
+  font-size: 18px;
+  background-color: hsl(11, 51%, 64%);
+  border: solid 1px #ffffff;
+  border-radius: 100px;
+  box-shadow: 2.5px 2.5px 0 #ffe0d1;
+}
+
+.account__login-links {
+  text-align: center;
+  font-size: 13px;
+}
+
+.account__login-links a {
+  letter-spacing: .5px;
+  color: #d28573;
+}
 
 /* ==========================================================================
    Helper classes
