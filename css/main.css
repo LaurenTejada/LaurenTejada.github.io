@@ -784,7 +784,7 @@ input::placeholder {
     font-weight: 700;
   }
 
-  /** homepage **/
+  /******** homepage ********/
   /* hero section */
   .hero-section {
     background-image: url(../img/dylpops-tablet-desktop-hero-img.png);
@@ -859,6 +859,15 @@ input::placeholder {
 
   .footer__proceeds-container {
     width: 85%;
+  }
+
+  /******** account login page ********/
+  .account-section {
+    padding: 40px 210px 40px 210px;
+  }
+
+  .account_type-heading-1 {
+    padding-bottom: 40px;
   }
 
 }
