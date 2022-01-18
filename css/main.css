@@ -612,6 +612,11 @@ input::placeholder {
     margin: 0 0 80px 0;
   }
 
+  /* collection section */
+  .featured-section {
+    margin: 40px 20px 40px 20px;
+  }
+
   /* about us section */
   .about-image__image-container {
     height: 640px;
