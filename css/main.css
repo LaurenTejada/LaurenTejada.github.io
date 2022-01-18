@@ -97,6 +97,14 @@ body {
   letter-spacing: -0.80px;
 }
 
+a {
+  color: #d3684c;
+}
+
+input {
+  outline: none;
+}
+
 h1,
 p {
   margin: 0;
@@ -153,6 +161,11 @@ img.dylpops-logo {
 .header__menu-icon,
 .header__cart-icon {
   padding-top: 4px;
+  color: #d3684c;
+}
+
+.header__menu-icon a,
+.header__cart-icon a {
   color: #d3684c;
 }
 
