@@ -667,10 +667,21 @@ input::placeholder {
     align-items: center;
   }
 
+  .hero__description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
   .hero__type-heading-1 {
-    width: 90%;
+    width: 100%;
     padding: 100px 135px 20px 135px;
     text-align: center;
+  }
+
+  .hero__button-container {
+    display: flex;
+    justify-content: center;
   }
   
   .btn__shop {
